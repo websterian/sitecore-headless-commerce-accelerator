@@ -63,8 +63,8 @@ namespace Wooli.Foundation.Extensions.Extensions
 
             var options = new MediaUrlOptions { Height = height, Width = width };
             var url = MediaManager.GetMediaUrl(mediaItem, options);
-            var cleanUrl = StringUtil.EnsurePrefix('/', url);
-            var hashedUrl = HashingUtils.ProtectAssetUrl(cleanUrl);
+            //var cleanUrl = StringUtil.EnsurePrefix('/', url);
+            var hashedUrl = HashingUtils.ProtectAssetUrl(url);
 
             return hashedUrl;
         }
@@ -77,8 +77,8 @@ namespace Wooli.Foundation.Extensions.Extensions
             }
 
             var url = MediaManager.GetMediaUrl(mediaItem);
-            var cleanUrl = StringUtil.EnsurePrefix('/', url);
-            var hashedUrl = HashingUtils.ProtectAssetUrl(cleanUrl);
+            //var cleanUrl = StringUtil.EnsurePrefix('/', url);
+            var hashedUrl = HashingUtils.ProtectAssetUrl(url);
 
             return hashedUrl;
         }

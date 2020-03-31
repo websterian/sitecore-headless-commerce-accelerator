@@ -42,8 +42,9 @@ namespace Wooli.Foundation.Commerce.Context
 
         // ToDo: implement logic for getting current catalog item
         public ICommerceCatalogModel CurrentCatalog 
-            => this.sitecoreContext.GetItem<ICommerceCatalogModel>($"/sitecore/Commerce/Catalog Management/Catalogs/{this.CatalogName}");
-
+            //=> this.sitecoreContext.GetItem<ICommerceCatalogModel>($"/sitecore/Commerce/Catalog Management/Catalogs/{this.CatalogName}");
+            => this.sitecoreContext.GetItem<ICommerceCatalogModel>($"/sitecore/content/Sitecore/Storefront/Home/Catalogs/{this.CatalogName}");
+       
         public string SelectedCurrency => "USD";
 
         // ToDo: implement logic for getting current catalog item

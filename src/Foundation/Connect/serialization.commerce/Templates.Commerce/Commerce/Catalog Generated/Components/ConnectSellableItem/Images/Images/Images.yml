@@ -1,6 +1,6 @@
 ﻿---
-ID: "47756eb1-9491-4a82-8d1f-297dbb653008"
-Parent: "e5a2bfba-1ed2-42d5-809d-26f1dc0747c5"
+ID: "9416ce13-2ff9-43f6-9be8-5f42b5e1ea2c"
+Parent: "d31f90b2-c537-4731-a599-3a1b4f36a047"
 Template: "455a3e98-a627-4b40-8035-e683a0331ac7"
 Path: /sitecore/templates/Commerce/Catalog Generated/Components/ConnectSellableItem/Images/Images/Images
 DB: master
@@ -27,8 +27,8 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20190621T165119Z
+      Value: 20200321T180634Z
     - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
       Hint: __Created by
       Value: |
-        extranet\Anonymous
+        sitecore\Anonymous
